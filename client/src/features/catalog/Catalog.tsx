@@ -1,25 +1,19 @@
-
 import { useEffect, useState } from "react";
 import { Product } from "../../app/models/product";
 import ProductList from "./ProductList";
 
-
-
 export default function Catalog() {
-    const [products, setProducts] = useState<Product[]>([]);
+  const [products, setProducts] = useState<Product[]>([]);
 
-  useEffect(()=>{
+  useEffect(() => {
     fetch('https://localhost:44336/api/products')
-    .then(response=>response.json())
-    .then(data => setProducts(data))
-  },[])
+      .then((response) => response.json())
+      .then((data) => setProducts(data));
+  }, []);
 
-
-    return(
-        <>
-            <ProductList products={products}/>
-              
-        </>
-       
-    )
+  return (
+    <>
+      <ProductList products={products} />
+    </>
+  );
 }
