@@ -5959,11 +5959,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\computer\\source\\repos\\ReStore\\ReStore\\ReStore.csproj",
+      "projectUniqueName": "C:\\Github\\ReStore-.NET-React\\ReStore\\ReStore.csproj",
       "projectName": "ReStore",
-      "projectPath": "C:\\Users\\computer\\source\\repos\\ReStore\\ReStore\\ReStore.csproj",
+      "projectPath": "C:\\Github\\ReStore-.NET-React\\ReStore\\ReStore.csproj",
       "packagesPath": "C:\\Users\\computer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\computer\\source\\repos\\ReStore\\ReStore\\obj\\",
+      "outputPath": "C:\\Github\\ReStore-.NET-React\\ReStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
